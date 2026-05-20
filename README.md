@@ -6,7 +6,7 @@
 
 There is a popular idea that artificial intelligence is something categorically different from conventional statistics, and that at some point a model crosses a threshold and becomes something new, something that thinks. This notebook argues that idea is wrong.
 
-It begins with the simplest possible model: a straight line fit to a handful of points. It ends with the architecture behind GPT, the class of model that powers modern large language models. Every step between them implements only minor modifications or additions. At no point is there a clean break between convential ML and statistics and AI.
+It begins with the simplest possible model: a straight line fit to a handful of points via ordinary least squares (OLS). It ends with the architecture behind GPT, the class of model that powers modern large language models. Every step between them implements only minor modifications or additions. At no point is there a clean break between convential ML and statistics and AI.
 
 Someone who genuinely understands linear regression already understands the much of what makes a transformer work. The concepts are the same: a parametric model, a loss function, an optimizer that minimizes it, and a prediction on new data. The mystique surrounding modern AI is largely a product of scale and opacity, not of fundamentally new ideas. The core machinery (maximum likelihood estimation, gradient descent, and learned representations) has been in the statistical literature for decades.
 
